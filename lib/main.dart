@@ -1,5 +1,5 @@
+import 'package:ahumapp/Views/OnBoarding/signup.dart';
 import 'package:flutter/material.dart';
-
 import 'Views/OnBoarding/onBoaredingScreen.dart';
 
 void main() {
@@ -13,12 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-   
-        primarySwatch: Colors.blue,
-      ),
-      home: OnBoardingScreen()
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: const SignUp());
   }
 }
